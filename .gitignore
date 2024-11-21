@@ -10,6 +10,8 @@ Vagrantfile.local
 /env/
 .idea
 */static_files
+staticfiles/
+
 *~
 # Compiled source #
 ###################

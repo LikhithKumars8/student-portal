@@ -1,0 +1,95 @@
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e43c44;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    border-left: 1px solid rgb(213, 213, 213);
+}
+
+.input-group svg {
+    cursor: pointer;
+    margin-inline: 12px;
+}
+
+.input-group input:focus {
+    border-color: #0056b3;
+}
+
+.btn {
+    background-color: #182736;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #232425;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-container .form-group:last-child {
+    margin-bottom: 0;
+}
